@@ -1,4 +1,3 @@
-import { Button } from "@chakra-ui/react";
 import { TableDataType } from "../types";
 import { CurrencyNameField } from "../components/Table/CurrencyNameField";
 import { CurrencyValueField } from "../components/Table/CurrencyValueField";

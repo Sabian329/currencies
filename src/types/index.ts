@@ -8,4 +8,4 @@ export interface SpecyficCurrencyQueryParamsType {
   table: TABLE_TYPE_ENUM;
   currencyCode: string;
 }
-export type TableDataType = { [key: string]: number | string };
+export type TableDataType = { code: string; currency: string; mid: number };
